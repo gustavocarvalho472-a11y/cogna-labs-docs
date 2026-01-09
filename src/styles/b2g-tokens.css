@@ -1,0 +1,158 @@
+/**
+ * B2G Insights - Design Tokens
+ * Extraídos da página de oportunidades
+ */
+
+:root {
+  /* ===== TYPOGRAPHY ===== */
+  --b2g-font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Font Sizes */
+  --b2g-font-size-xs: 10px;
+  --b2g-font-size-sm: 12px;
+  --b2g-font-size-base: 14px;
+  --b2g-font-size-md: 16px;
+  --b2g-font-size-lg: 18px;
+  --b2g-font-size-xl: 20px;
+  --b2g-font-size-2xl: 24px;
+  --b2g-font-size-3xl: 28px;
+  --b2g-font-size-4xl: 32px;
+
+  /* Font Weights */
+  --b2g-font-weight-regular: 400;
+  --b2g-font-weight-medium: 500;
+  --b2g-font-weight-semibold: 600;
+  --b2g-font-weight-bold: 700;
+
+  /* Line Heights */
+  --b2g-line-height-tight: 1.1;
+  --b2g-line-height-snug: 1.25;
+  --b2g-line-height-normal: 1.4;
+  --b2g-line-height-relaxed: 1.5;
+
+  /* ===== COLORS - PRIMARY (Purple) ===== */
+  --b2g-primary-50: #f9f5ff;
+  --b2g-primary-100: #f4efff;
+  --b2g-primary-200: #eee6ff;
+  --b2g-primary-300: #e9ddff;
+  --b2g-primary-400: #e0d4ff;
+  --b2g-primary-500: #dccdfa;
+  --b2g-primary-600: #cdb3ff;
+  --b2g-primary-700: #aa80ff;
+  --b2g-primary-800: #8725ff;
+  --b2g-primary-900: #7c3aed;
+  --b2g-primary-950: #6b1fcc;
+  --b2g-primary-deep: #511699;
+  --b2g-primary-darker: #51169a;
+
+  /* ===== COLORS - NEUTRAL (Gray) ===== */
+  --b2g-neutral-50: #fdfdfd;
+  --b2g-neutral-100: #fafafa;
+  --b2g-neutral-150: #f9fafb;
+  --b2g-neutral-200: #f6f8fa;
+  --b2g-neutral-250: #f3f4f6;
+  --b2g-neutral-300: #f0f2f5;
+  --b2g-neutral-350: #e6e9ee;
+  --b2g-neutral-400: #e5e7eb;
+  --b2g-neutral-450: #cad0da;
+  --b2g-neutral-500: #bbbec4;
+  --b2g-neutral-550: #a5aec0;
+  --b2g-neutral-600: #9ca3af;
+  --b2g-neutral-650: #8b8d91;
+  --b2g-neutral-700: #767e8e;
+  --b2g-neutral-750: #6b7280;
+  --b2g-neutral-800: #6b6d71;
+  --b2g-neutral-850: #494e57;
+  --b2g-neutral-900: #474b52;
+  --b2g-neutral-950: #3d4149;
+  --b2g-neutral-1000: #2e3137;
+  --b2g-neutral-1050: #1e2024;
+  --b2g-neutral-1100: #1f2937;
+
+  /* ===== COLORS - SUCCESS (Green) ===== */
+  --b2g-success-50: #a9f1a6;
+  --b2g-success-100: #95ffc1;
+  --b2g-success-200: #7df5ac;
+  --b2g-success-300: #4ade80;
+  --b2g-success-400: #35713a;
+  --b2g-success-500: #22c55e;
+  --b2g-success-600: #0f6533;
+
+  /* ===== COLORS - ERROR (Red) ===== */
+  --b2g-error-50: #fef2f2;
+  --b2g-error-100: #ff9f99;
+  --b2g-error-500: #ef4444;
+  --b2g-error-600: #98231b;
+
+  /* ===== COLORS - INFO (Blue) ===== */
+  --b2g-info-50: #deeafc;
+  --b2g-info-500: #0096dc;
+  --b2g-info-600: #007bb5;
+  --b2g-info-700: #223d85;
+
+  /* ===== COLORS - BACKGROUND ===== */
+  --b2g-bg-white: #ffffff;
+  --b2g-bg-light: #f9fafb;
+  --b2g-bg-muted: #f6f8fa;
+  --b2g-bg-subtle: #f3f4f6;
+  --b2g-bg-accent: #f1ecfb;
+  --b2g-bg-purple-light: #f4efff;
+  --b2g-bg-purple-hover: #ebe3ff;
+  --b2g-bg-purple-active: #e0d4ff;
+
+  /* ===== COLORS - BORDER ===== */
+  --b2g-border-light: #e5e7eb;
+  --b2g-border-default: #bbbec4;
+  --b2g-border-dark: #a5aec0;
+  --b2g-border-focus: #8725ff;
+
+  /* ===== COLORS - TEXT ===== */
+  --b2g-text-primary: #2e3137;
+  --b2g-text-secondary: #494e57;
+  --b2g-text-tertiary: #6b7280;
+  --b2g-text-muted: #9ca3af;
+  --b2g-text-white: #ffffff;
+  --b2g-text-accent: #8725ff;
+
+  /* ===== SPACING ===== */
+  --b2g-spacing-0: 0;
+  --b2g-spacing-1: 4px;
+  --b2g-spacing-2: 8px;
+  --b2g-spacing-3: 12px;
+  --b2g-spacing-4: 16px;
+  --b2g-spacing-5: 20px;
+  --b2g-spacing-6: 24px;
+  --b2g-spacing-7: 28px;
+  --b2g-spacing-8: 32px;
+  --b2g-spacing-10: 40px;
+  --b2g-spacing-12: 48px;
+  --b2g-spacing-16: 64px;
+
+  /* ===== BORDER RADIUS ===== */
+  --b2g-radius-none: 0;
+  --b2g-radius-sm: 3px;
+  --b2g-radius-md: 4px;
+  --b2g-radius-default: 6px;
+  --b2g-radius-lg: 8px;
+  --b2g-radius-xl: 10px;
+  --b2g-radius-2xl: 12px;
+  --b2g-radius-3xl: 16px;
+  --b2g-radius-4xl: 18px;
+  --b2g-radius-5xl: 20px;
+  --b2g-radius-full: 500px;
+  --b2g-radius-circle: 50%;
+
+  /* ===== SHADOWS ===== */
+  --b2g-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --b2g-shadow-default: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --b2g-shadow-focus: 0 0 0 2px #8725ff;
+  --b2g-shadow-focus-light: 0 0 0 1px #8725ff;
+  --b2g-shadow-purple: 0 4px 12px rgba(135, 37, 255, 0.3);
+  --b2g-shadow-purple-hover: 0 6px 20px rgba(135, 37, 255, 0.4);
+  --b2g-shadow-green: 0 2px 8px rgba(149, 255, 193, 0.5);
+
+  /* ===== TRANSITIONS ===== */
+  --b2g-transition-fast: 0.15s ease;
+  --b2g-transition-default: 0.2s ease;
+  --b2g-transition-slow: 0.3s ease;
+}

@@ -1,0 +1,5 @@
+export { RadarBotoes } from './Botoes'
+export { RadarTags } from './Tags'
+export { RadarSearchBar } from './SearchBar'
+export { RadarWordCloud } from './WordCloud'
+export { RadarBullets } from './Bullets'
