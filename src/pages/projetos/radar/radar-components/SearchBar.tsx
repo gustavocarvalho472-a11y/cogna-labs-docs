@@ -1,4 +1,3 @@
-import React from 'react'
 import { Radar, ExternalLink, Search } from 'lucide-react'
 import { PreviewCodeTabs } from '@/components/PreviewCodeTabs'
 
